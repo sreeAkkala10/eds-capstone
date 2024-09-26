@@ -68,11 +68,13 @@
             h3{
                 margin: 0px 0px 6px;
                 font-size: 24px;
+                font-weight: var(--fontWeightNormal, normal);
                 font-family: var(--fontFamilySerif, "Asar", Georgia, "Times New Roman", Times, serif);
             }
             h5{
                 margin: 0px 0px 3.5px;
                 font-size: 14px;
+                font-family: var(--fontFamilySansSerif, "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif);
                 text-transform: uppercase;
                 font-weight: 600;
                 line-height: 1.5;
