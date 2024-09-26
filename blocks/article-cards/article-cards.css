@@ -64,7 +64,7 @@
                     text-transform: uppercase;
                     line-height: 1.5;
                     text-wrap: wrap;
-                    white-space: nowrap;
+                    
                     cursor:pointer;
                     width: 23ch;
                     display:inline-block
