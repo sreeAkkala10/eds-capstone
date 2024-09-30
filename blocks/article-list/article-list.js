@@ -59,6 +59,7 @@ function createHTML(json){
 }
 
 export default async function decorate(block) {
+    console.log("article-list");
     const allArticles=block.querySelector('a[href$=".json"]');
     const artcilesJSON= await getQueryIndexJson(allArticles.href,null);
     block.innerHTML='';

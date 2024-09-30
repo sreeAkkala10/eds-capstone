@@ -18,6 +18,7 @@ function getTitle(page){
 
 
 export default async function decorate(block) {
+    console.log("breadcrumb");
     const allArticles = block.querySelector('a[href$=".json"]');
     const artcilesJSON = await getQueryIndexJson(allArticles.href, null);
     const breadcrumbs = document.createElement('nav');
