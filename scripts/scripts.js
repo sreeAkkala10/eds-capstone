@@ -127,7 +127,6 @@ function loadDelayed() {
 }
 
 async function loadPage() {
-  console.log("scripts");
   await loadEager(document);
   await loadLazy(document);
   loadDelayed();

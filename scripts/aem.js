@@ -123,7 +123,6 @@ function setup() {
  */
 
 function init() {
-  console.log("aem");
   setup();
   sampleRUM('top');
 
