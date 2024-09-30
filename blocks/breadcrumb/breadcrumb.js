@@ -64,7 +64,7 @@ export default async function decorate(block) {
     if (divToRemove) {
         divToRemove.remove();
     }
-    // block.textContent=``
+    block.textContent=``
 
     breadcrumbs.append(ol);
     block.append(breadcrumbs);
